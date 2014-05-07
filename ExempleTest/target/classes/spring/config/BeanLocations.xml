@@ -1,0 +1,15 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		xsi:schemaLocation="http://www.springframework.org/schema/beans 
+		http://www.springframework.org/schema/beans/spring-beans-2.5.xsd">
+		
+		
+		
+		<!-- Database configuration -->
+		<import resource="../database/DataSource.xml"></import>
+		<import resource="../database/Hibernate.xml"></import>
+		
+		<!-- Beans Declaration -->
+		<import resource="../beans/Client.xml"/>
+		
+</beans>
